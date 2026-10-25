@@ -1,2 +1,3 @@
 *.lck
 *.zip
+.DS_Store
