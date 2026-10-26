@@ -7300,7 +7300,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 74.93 82.55 0)
+		(at 74.93 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7311,7 +7311,7 @@
 		(fields_autoplaced yes)
 		(uuid "10a6d27b-018a-4161-bf77-d2821632c66f")
 		(property "Reference" "#PWR023"
-			(at 74.93 86.36 0)
+			(at 74.93 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7322,7 +7322,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 74.93 77.47 0)
+			(at 74.93 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7332,7 +7332,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 82.55 0)
+			(at 74.93 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7343,7 +7343,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 82.55 0)
+			(at 74.93 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7354,7 +7354,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 74.93 82.55 0)
+			(at 74.93 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8181,7 +8181,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 85.09 86.36 90)
+		(at 85.09 92.71 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8192,7 +8192,7 @@
 		(fields_autoplaced yes)
 		(uuid "51d346ef-db60-4b52-8e35-f8cb70ed3cda")
 		(property "Reference" "D3"
-			(at 88.9 86.6774 90)
+			(at 88.9 93.0274 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8203,7 +8203,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 88.9 89.2174 90)
+			(at 88.9 95.5674 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8214,7 +8214,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 86.36 0)
+			(at 85.09 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8225,7 +8225,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 86.36 0)
+			(at 85.09 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8236,7 +8236,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 85.09 86.36 0)
+			(at 85.09 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8247,7 +8247,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 85.09 86.36 0)
+			(at 85.09 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8995,7 +8995,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 111.76 86.36 90)
+		(at 111.76 92.71 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9006,7 +9006,7 @@
 		(fields_autoplaced yes)
 		(uuid "6a1e5ad4-ee66-475d-8a19-22fc713aa009")
 		(property "Reference" "D6"
-			(at 115.57 86.6774 90)
+			(at 115.57 93.0274 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9017,7 +9017,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 115.57 89.2174 90)
+			(at 115.57 95.5674 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9028,7 +9028,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 86.36 0)
+			(at 111.76 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9039,7 +9039,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 86.36 0)
+			(at 111.76 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9050,7 +9050,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 111.76 86.36 0)
+			(at 111.76 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9061,7 +9061,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 111.76 86.36 0)
+			(at 111.76 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9709,7 +9709,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 74.93 86.36 90)
+		(at 74.93 92.71 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9720,7 +9720,7 @@
 		(fields_autoplaced yes)
 		(uuid "7cffca36-cb22-4130-8ea1-5aa4c73d6222")
 		(property "Reference" "D2"
-			(at 78.74 86.6774 90)
+			(at 78.74 93.0274 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9731,7 +9731,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 78.74 89.2174 90)
+			(at 78.74 95.5674 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9742,7 +9742,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 86.36 0)
+			(at 74.93 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9753,7 +9753,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 86.36 0)
+			(at 74.93 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9764,7 +9764,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 74.93 86.36 0)
+			(at 74.93 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9775,7 +9775,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 74.93 86.36 0)
+			(at 74.93 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10271,7 +10271,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 74.93 97.79 0)
+		(at 74.93 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10282,7 +10282,7 @@
 		(fields_autoplaced yes)
 		(uuid "9291128e-caaf-44dd-917e-9a2054ab0c60")
 		(property "Reference" "#PWR025"
-			(at 74.93 104.14 0)
+			(at 74.93 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10293,7 +10293,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 74.93 102.87 0)
+			(at 74.93 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10303,7 +10303,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 97.79 0)
+			(at 74.93 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10314,7 +10314,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 97.79 0)
+			(at 74.93 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10325,7 +10325,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 74.93 97.79 0)
+			(at 74.93 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10428,7 +10428,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 93.98 86.36 90)
+		(at 93.98 92.71 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10439,7 +10439,7 @@
 		(fields_autoplaced yes)
 		(uuid "92ea271b-cbeb-4a77-b977-5dca5f79622d")
 		(property "Reference" "D4"
-			(at 97.79 86.6774 90)
+			(at 97.79 93.0274 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10450,7 +10450,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 97.79 89.2174 90)
+			(at 97.79 95.5674 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10461,7 +10461,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 86.36 0)
+			(at 93.98 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10472,7 +10472,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 86.36 0)
+			(at 93.98 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10483,7 +10483,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 93.98 86.36 0)
+			(at 93.98 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10494,7 +10494,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 93.98 86.36 0)
+			(at 93.98 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10521,7 +10521,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 102.87 86.36 90)
+		(at 102.87 92.71 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10532,7 +10532,7 @@
 		(fields_autoplaced yes)
 		(uuid "97a6244b-dde8-459b-95bd-b0fe6684ae50")
 		(property "Reference" "D5"
-			(at 106.68 86.6774 90)
+			(at 106.68 93.0274 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10543,7 +10543,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 106.68 89.2174 90)
+			(at 106.68 95.5674 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10554,7 +10554,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.87 86.36 0)
+			(at 102.87 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10565,7 +10565,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 86.36 0)
+			(at 102.87 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10576,7 +10576,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 102.87 86.36 0)
+			(at 102.87 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10587,7 +10587,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 102.87 86.36 0)
+			(at 102.87 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11820,7 +11820,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 74.93 93.98 0)
+		(at 74.93 100.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11831,7 +11831,7 @@
 		(fields_autoplaced yes)
 		(uuid "c6e3c72c-447b-4d9f-a584-a0b026e113c1")
 		(property "Reference" "R4"
-			(at 77.47 92.7099 0)
+			(at 77.47 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11842,7 +11842,7 @@
 			)
 		)
 		(property "Value" "10kΩ"
-			(at 77.47 95.2499 0)
+			(at 77.47 101.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11853,7 +11853,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.152 93.98 90)
+			(at 73.152 100.33 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11864,7 +11864,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 93.98 0)
+			(at 74.93 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11875,7 +11875,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 74.93 93.98 0)
+			(at 74.93 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12085,7 +12085,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 85.09 82.55 0)
+		(at 85.09 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12096,7 +12096,7 @@
 		(fields_autoplaced yes)
 		(uuid "cf50f2ca-3ac1-42f9-a814-c84d2b89f772")
 		(property "Reference" "#PWR026"
-			(at 85.09 86.36 0)
+			(at 85.09 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12107,7 +12107,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 85.09 77.47 0)
+			(at 85.09 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12117,7 +12117,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 82.55 0)
+			(at 85.09 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12128,7 +12128,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 82.55 0)
+			(at 85.09 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12139,7 +12139,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 85.09 82.55 0)
+			(at 85.09 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
