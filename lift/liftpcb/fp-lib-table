@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "trec") (type "KiCad") (uri "/Users/jackjustus/git/Schematics-2026-2027/trec.pretty") (options "") (descr ""))
+)
