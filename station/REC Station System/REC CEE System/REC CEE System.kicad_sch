@@ -6786,7 +6786,7 @@
 	)
 	(wire
 		(pts
-			(xy 525.78 45.72) (xy 529.59 45.72)
+			(xy 525.78 45.72) (xy 530.86 45.72)
 		)
 		(stroke
 			(width 0)
@@ -6996,7 +6996,7 @@
 	)
 	(wire
 		(pts
-			(xy 537.21 45.72) (xy 547.37 45.72)
+			(xy 538.48 45.72) (xy 547.37 45.72)
 		)
 		(stroke
 			(width 0)
@@ -12724,7 +12724,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 533.4 45.72 90)
+		(at 534.67 45.72 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12734,7 +12734,7 @@
 		(dnp no)
 		(uuid "97df75be-2d5b-4b4e-b4da-b4fb8f5c7c0a")
 		(property "Reference" "R3"
-			(at 529.844 43.688 90)
+			(at 531.114 43.688 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12744,7 +12744,7 @@
 			)
 		)
 		(property "Value" "22Ω"
-			(at 533.4 43.688 90)
+			(at 534.67 43.688 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12754,7 +12754,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 533.654 44.704 90)
+			(at 534.924 44.704 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12765,7 +12765,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 533.4 45.72 0)
+			(at 534.67 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12776,7 +12776,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 533.4 45.72 0)
+			(at 534.67 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

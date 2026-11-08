@@ -142,7 +142,7 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_copper_edge_clearance": 1.0,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
@@ -470,7 +470,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "same_local_global_power": "warning",
@@ -665,7 +665,7 @@
         "uuid": "97e5c251-ddba-47a4-a64e-2fd6df10a807"
       }
     ],
-    "used_designators": "U4",
+    "used_designators": "#PWR6,#PWR13-15,#PWR29-50,C5-6,C14-38,D2-3,J4-8,L1-2,R3-12,SW1,U3-5",
     "variants": []
   },
   "sheets": [

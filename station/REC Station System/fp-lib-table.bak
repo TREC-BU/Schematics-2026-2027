@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "REC_Switches")(type "KiCad")(uri "${KIPRJMOD}/REC_Switches.pretty")(options "")(descr "Project GCT switch footprints"))
+)
