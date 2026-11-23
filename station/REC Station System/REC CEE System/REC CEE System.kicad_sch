@@ -13716,7 +13716,7 @@
 		(uuid "877dc5e9-1717-4651-9f2b-9d9882ada5e0")
 	)
 	(label "SafetyNC"
-		(at 297.18 116.84 90)
+		(at 297.18 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
