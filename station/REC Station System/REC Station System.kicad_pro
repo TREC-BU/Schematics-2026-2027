@@ -512,16 +512,17 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
+        "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
       }
     ],
     "meta": {
-      "version": 4
+      "version": 5
     },
-    "net_colors": null,
-    "netclass_assignments": null,
+    "net_colors": {},
+    "netclass_assignments": {},
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -664,7 +665,7 @@
         "uuid": "97e5c251-ddba-47a4-a64e-2fd6df10a807"
       }
     ],
-    "used_designators": "#PWR6,#PWR13-15,#PWR17-22,#PWR29-68,#PWR200-201,C5-6,C8-9,C14-38,D2-6,D11-17,D24-27,F1-2,J4-9,K1-4,L1-2,Q8-10,R1,R3-31,R37-49,SW1,U3-5,Y1",
+    "used_designators": "#PWR6,#PWR13-15,#PWR17-22,#PWR29-69,#PWR200-201,C5-6,C8-9,C14-38,D2-6,D11-17,D24-27,F1-2,J4-9,K1-4,L1-2,Q8-10,R1,R3-31,R37-49,SW1,U3-6,Y1",
     "variants": []
   },
   "sheets": [

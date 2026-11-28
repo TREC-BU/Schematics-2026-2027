@@ -5563,6 +5563,136 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "pesd2can:PESD2CAN"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PESD2CAN"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PESD2CAN_0_1"
+				(rectangle
+					(start -12.7 2.54)
+					(end 12.7 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "PESD2CAN_1_1"
+				(pin passive line
+					(at -17.78 0 0)
+					(length 5.08)
+					(name "I/O1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -17.78 -2.54 0)
+					(length 5.08)
+					(name "I/O2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "COM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+24V"
 			(power global)
 			(pin_numbers
@@ -10572,6 +10702,30 @@
 		)
 		(uuid "ff1c2bfb-4d76-4cc4-bff9-eb0cadddb6fd")
 	)
+	(global_label "CAN_L"
+		(shape input)
+		(at 86.36 179.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9832ec77-0af4-46dd-9251-c3609f47a868")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 77.69 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "SAFETY_COIL"
 		(shape input)
 		(at 228.6 236.22 0)
@@ -10593,6 +10747,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "CAN_H"
+		(shape input)
+		(at 86.36 176.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cd01da4f-f0da-4ea0-ad58-f187f4a57e33")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 77.3876 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -10749,7 +10927,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Relay_THT:Relay_SPDT_Omron-G5LE-1"
 			(at 146.05 229.87 0)
 			(hide yes)
 			(show_name no)
@@ -11501,7 +11679,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Relay_THT:Relay_SPDT_Omron-G5LE-1"
 			(at 123.19 229.87 0)
 			(hide yes)
 			(show_name no)
@@ -13113,7 +13291,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 276.5552 245.11 0)
 			(hide yes)
 			(show_name no)
@@ -16196,7 +16374,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal"
 			(at 218.44 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -17627,6 +17805,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 121.92 176.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7fa5232a-c9b3-425f-8777-30284356ef9f")
+		(property "Reference" "#PWR069"
+			(at 121.92 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 125.984 178.562 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 121.92 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bbafce80-7dfd-4810-a743-cd5e0c1c8396")
+		)
+		(instances
+			(project "REC Station System"
+				(path "/97e5c251-ddba-47a4-a64e-2fd6df10a807"
+					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 109.22 247.65 180)
 		(unit 1)
@@ -18295,7 +18550,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 287.3248 245.11 0)
 			(hide yes)
 			(show_name no)
@@ -18811,6 +19066,89 @@
 			(project "REC Station System"
 				(path "/97e5c251-ddba-47a4-a64e-2fd6df10a807"
 					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pesd2can:PESD2CAN")
+		(at 104.14 176.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e58aa94-cd9c-4579-af2e-bfbae387a8c2")
+		(property "Reference" "U6"
+			(at 104.14 168.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PESD2CAN"
+			(at 104.14 171.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 104.14 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "859849e5-e9a6-481c-9bcc-6a8c29c7a05e")
+		)
+		(pin "2"
+			(uuid "d9a46a12-4795-4c12-99ab-80df05d24bf9")
+		)
+		(pin "3"
+			(uuid "7e545941-3953-46de-bb57-444a0f53d925")
+		)
+		(instances
+			(project "REC Station System"
+				(path "/97e5c251-ddba-47a4-a64e-2fd6df10a807"
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -20568,7 +20906,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Relay_THT:Relay_SPDT_Omron-G5LE-1"
 			(at 146.05 261.62 0)
 			(hide yes)
 			(show_name no)
@@ -22137,7 +22475,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_Power_L20.0mm_W6.4mm_P25.40mm"
 			(at 349.25 137.16 0)
 			(hide yes)
 			(show_name no)
