@@ -7,19 +7,19 @@
     "hidden_nets": [
       "+24V",
       "GND",
+      "+3.3V",
       "/PU_INPUT",
       "/NRST",
       "/CANH",
       "/CANL",
       "+5V",
       "/SERVO_PWM",
-      "+3.3V",
+      "/PROX_SENSE_B",
       "/FDCAN1_TX",
       "/FDCAN1_RX",
       "/SWCLK",
       "/SWDIO",
-      "/PROX_SENSE_A",
-      "/PROX_SENSE_B"
+      "/PROX_SENSE_A"
     ],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
